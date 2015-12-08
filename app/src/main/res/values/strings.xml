@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidStart</string>
+    <string name="app_name">Android Start</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">Main Activity</string>
     <string name="myscreen">Горизонтальная ориентация экрана</string>
