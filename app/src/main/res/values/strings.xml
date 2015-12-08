@@ -2,5 +2,6 @@
     <string name="app_name">AndroidStart</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">Main Activity</string>
-    <string name="myscreen">Этот экран описан не в main.xml, а в myscreen.xml</string>
+    <string name="myscreen">Горизонтальная ориентация экрана</string>
+    <string name="myscreenvertical">Вериткальная ориентация экрана</string>
 </resources>
