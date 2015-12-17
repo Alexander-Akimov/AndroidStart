@@ -1,6 +1,7 @@
 package com.infotech.p0051_layoutfile;
 
 import android.os.Bundle;
+import android.preference.CheckBoxPreference;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -8,18 +9,32 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.p007_layout_gravity);
-setContentView(R.layout.p006_tablelayout);
-setContentView(R.layout.p006_relativelayout);
-setContentView(R.layout.p006_tablelayout);
-setContentView(R.layout.p005_myscreen);
-setContentView(R.layout.main_layout);
+        setContentView(R.layout.p008_manage_controls);
+        //setContentView(R.layout.p007_layout_gravity);
+        //setContentView(R.layout.p006_tablelayout);
+        //setContentView(R.layout.p006_relativelayout);
+        //setContentView(R.layout.p006_tablelayout);
+        //setContentView(R.layout.p005_myscreen);
+        //setContentView(R.layout.main_layout);
+
+        TextView myTextView = (TextView) findViewById(R.id.myText);
+        myTextView.setText("Android it's easy");
+
+        Button myBtn = (Button) findViewById(R.id.myBtn);
+        myBtn.setText("My first Button");
+        myBtn.setEnabled(false);
+
+        CheckBox myChb = (CheckBox) findViewById(R.id.myChb);
+        myChb.setChecked(true);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {

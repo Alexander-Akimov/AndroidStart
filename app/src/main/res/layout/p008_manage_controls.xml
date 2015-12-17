@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/myText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/myBtn"
+        android:layout_below="@+id/myText"
+        android:layout_toLeftOf="@+id/myText"
+        android:layout_toStartOf="@+id/myText" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New CheckBox"
+        android:id="@+id/myChb"
+        android:layout_below="@+id/myBtn"
+        android:layout_alignLeft="@+id/myBtn"
+        android:layout_alignStart="@+id/myBtn"
+        android:checked="false" />
+</RelativeLayout>
