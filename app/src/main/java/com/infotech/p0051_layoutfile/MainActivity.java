@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
+import com.infotech.p009.R;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
